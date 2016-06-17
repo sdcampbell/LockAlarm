@@ -1,2 +1,2 @@
 # LockAlarm
-This script was created in response to user complaints that their screen would lock while they were still sitting at their desk reading paperwork. The script will sound a chime one minute before the computer locks. 
+This script was created in response to user complaints that their screen would lock while they were still sitting at their desk reading paperwork. The script will sound the Windows logoff sound one minute before the computer locks. The script will automatically reset the countdown when keyboard or mouse input is detected. To change the elapsed time before the sound is played, edit line 21. The script should be compiled to exe with PyInstaller if your workstations don't have Python Installed.
